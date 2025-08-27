@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// POST route for form
+
 app.post("/send", async (req, res) => {
   const { name, email, message } = req.body;
 
@@ -14,14 +14,14 @@ app.post("/send", async (req, res) => {
     let transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "",  // 🔹 replace with your Gmail
-        pass: ""     // 🔹 use Gmail App Password (not normal password)
+        user: "",  
+        pass: ""     
       }
     });
 
     await transporter.sendMail({
       from: email,
-      to: "sanikachavan2034@gmail.com", // 🔹 Your email to receive messages
+      to: "sanikachavan2034@gmail.com", 
       subject: `📩 New message from ${name}`,
       text: message,
       html: `<p><b>Name:</b> ${name}</p>

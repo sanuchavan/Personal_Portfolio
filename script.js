@@ -9,7 +9,7 @@ const PROJECTS = [
     live: "#",
     images: ["assets/project1-1.jpg","assets/project1-2.jpg"]
   },
-  // ... other projects
+  
 ];
 
 const projectGrid = document.getElementById('project-grid');
@@ -125,9 +125,9 @@ document.addEventListener("DOMContentLoaded", () => {
         clearInterval(interval);
       } else {
         width++;
-        progress.style.width = width + "%";  // Fill progress visually
-        percentText.textContent = width + "%"; // Update percentage
+        progress.style.width = width + "%";  
+        percentText.textContent = width + "%"; 
       }
-    }, 20); // speed of fill
+    }, 20); 
   });
 });
