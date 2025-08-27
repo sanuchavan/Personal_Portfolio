@@ -1,6 +1,9 @@
-welcome to Sanika's Portfolio**Personal Portfolio   
+# 🌐 Personal Portfolio
+
+Welcome to my **Personal Portfolio Website**!  
 This project showcases my skills, projects, and achievements as a developer.  
-It’s built using **HTML, CSS, and JavaScript** 
+It’s built using **HTML, CSS, and JavaScript** (customize based on what you used).
+
 
 ---
 
