@@ -4,7 +4,7 @@ Welcome to my **My Portfolio**!
 
 
 This project showcases my skills, projects, and achievements as a developer.  
-It’s built using **HTML, CSS, and JavaScript** (customize based on what you used).
+It’s built using **HTML, CSS, and JavaScript** 
 
 
 ---
